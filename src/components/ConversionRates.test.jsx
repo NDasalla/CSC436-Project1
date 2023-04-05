@@ -4,7 +4,6 @@ import ConversionRates from "./ConversionRates";
 
 describe("ConversionRates component", () => {
 	it("mounts", () => {
-		const testing = render(<ConversionRates />);
-		expect(testing).toBeTruthy();
+		expect(render(<ConversionRates />)).toBeTruthy();
 	});
 });
